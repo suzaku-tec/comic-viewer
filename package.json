@@ -1,0 +1,21 @@
+{
+  "name": "comic-view2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^14.0.0"
+  },
+  "dependencies": {
+    "encoding-japanese": "^1.0.30",
+    "image-size": "^1.0.0",
+    "pdfkit": "^0.12.3"
+  }
+}

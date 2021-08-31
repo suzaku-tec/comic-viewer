@@ -1,0 +1,24 @@
+/* 外枠に設定する class */
+.img_outer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 画像に対して指定する class */
+.inner_photo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}
